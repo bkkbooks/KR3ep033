@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR3ep033/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3ep033/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 沈氏醫案
+  identifiers:
+    krp: KR3ep033
+  tags:
+    kr-categories: KR3ep
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ep033.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3ep033_000-jc.yaml, hash: 'sha256:42e3d458114191a9bf1b61b95f68a1b2ddcff605bfac4a6c034494d8fca4404e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ep033_000-jc.markers.yaml, hash: 'sha256:3818209ccb7903847a2f7d2cbd2f3fff1d176e9618c5c66aa1410d1927674e2a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ep033_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 369
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ep033_jc_000-d3.h1s1
+    span:
+    - body
+    - 0
+    - 33377
+  label: 正文
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ep033_jc_000-d4.h1s1
+    span:
+    - body
+    - 33377
+    - 35865
+  label: 附錄
+  type: section
+  level: 1
+hash: sha256:f47b0784b21815554070e79706313ac1634fde8acac3d962d29f9af4b22257df
